@@ -13,13 +13,13 @@ header{
     position: sticky;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.24);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255);
 }
 header>nav.navbar{
     font-family: roboto;
     font-size: 0.90rem;
+    background-color: #fff !important;
 }
 header li.nav-item>a.nav-link:not(.active){
     position: relative;
@@ -64,9 +64,10 @@ form.d-flex>button{
         background: #00b4d8 !important;   
     }
 }
-header>nav.navbar img, footer>div img{
+header>nav.navbar img{
     height: 30px;
 }
+
 header>nav.navbar .logo, footer>div .logo{
     font-family: logo;
     margin: auto 0;
@@ -109,4 +110,7 @@ footer p{
 footer .logo-div{
     display: flex;
     align-items: center;
+}
+footer>div img{
+    height: 40px;
 }
